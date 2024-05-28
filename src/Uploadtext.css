@@ -1,0 +1,60 @@
+.upload-button {
+    margin-top: 10px;
+}
+
+.upload-success {
+    margin-top: 10px;
+    color: green;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.view-details-button,
+.download-button,
+.close-details-button,
+.download-edited-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-edited-button {
+    margin-left: 10px;
+}
+
+.file-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-textarea {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}

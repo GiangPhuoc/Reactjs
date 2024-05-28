@@ -1,0 +1,111 @@
+/* Login.css */
+
+/* Container style */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Title style */
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form group style */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label style */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input style */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button style */
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover style */
+.btn-login:hover {
+  background-color: #68a4e4;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+/* Icon mắt xem */
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Login.css */
+
+/* Phần tử wrapper cho logo */
+.logo-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  /* Đảm bảo khoảng cách giữa logo và tiêu đề */
+}
+
+/* Tiêu đề "Đăng nhập" */
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  /* Đảm bảo khoảng cách giữa tiêu đề và form đăng nhập */
+}
+
+/* Nút đăng nhập */
+.btn-login {
+  width: 100%;
+  /* Đảm bảo nút có chiều rộng đầy đủ */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* Phần tử wrapper cho các thành phần như "Quên mật khẩu" và "Cấp lại mật khẩu" */
+.additional-links {
+  text-align: center;
+  /* Canh giữa nội dung */
+  margin-top: 20px;
+  /* Tạo khoảng cách với phần tử phía trên */
+}
+
+/* Các liên kết "Quên mật khẩu" và "Cấp lại mật khẩu" */
+.forgot-password-link,
+.reset-password-link {
+  margin-right: 10px;
+  /* Tạo khoảng cách giữa các thành phần */
+  cursor: pointer;
+}

@@ -1,0 +1,152 @@
+/* Upload.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.upload-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.upload-container input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-success {
+    color: green;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.preview-item {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.preview-item img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.view-details-button,
+.download-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-details-button:hover,
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close-details-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.close-details-button:hover {
+    background-color: #6e1111;
+}
+
+.file-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.file-details {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-body {
+    margin-top: 10px;
+}
+
+.close-details-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: red;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    /* Khoảng cách giữa các nút */
+}

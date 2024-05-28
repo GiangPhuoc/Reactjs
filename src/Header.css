@@ -1,0 +1,16 @@
+.header {
+    background-color: #2f7fff;
+    color: white;
+
+    width: 100%;
+    /* Cho thanh header phủ toàn bộ chiều rộng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Thêm shadow để header nổi bật hơn */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}

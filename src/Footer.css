@@ -1,0 +1,10 @@
+.footer {
+    background-color: #6fddff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    /* Thêm margin-top để tạo khoảng cách với nội dung phía trên */
+}

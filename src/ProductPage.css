@@ -1,0 +1,193 @@
+/* src/App.css */
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #0055ff;
+    padding: 20px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #0d00ff;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: calc(20% - 40px);
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-item button {
+    margin-top: 10px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button.buy-button {
+    background-color: #3498db;
+}
+
+button.cart-button {
+    background-color: #e74c3c;
+}
+
+.cart {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+.cart-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.search-input {
+    width: 300px;
+    /* Tăng chiều rộng */
+    height: 40px;
+    /* Tăng chiều cao */
+    padding: 10px;
+    /* Thêm padding cho khoảng cách bên trong */
+    font-size: 16px;
+    /* Tăng kích thước font chữ */
+    border: 1px solid #ccc;
+    /* Viền của ô tìm kiếm */
+    border-radius: 5px;
+    /* Bo góc viền */
+    box-sizing: border-box;
+    /* Đảm bảo padding không ảnh hưởng đến kích thước tổng thể */
+}
+
+.search-button {
+    height: 40px;
+    /* Đảm bảo nút tìm kiếm cùng chiều cao với ô tìm kiếm */
+    margin-left: 10px;
+    /* Khoảng cách giữa ô tìm kiếm và nút tìm kiếm */
+    padding: 0 20px;
+    /* Khoảng cách nội dung nút */
+    font-size: 16px;
+    /* Tăng kích thước font chữ */
+    border: 1px solid #007bff;
+    /* Viền của nút tìm kiếm */
+    border-radius: 5px;
+    /* Bo góc viền */
+    background-color: #007bff;
+    /* Màu nền nút tìm kiếm */
+    color: white;
+    /* Màu chữ của nút tìm kiếm */
+    cursor: pointer;
+    /* Con trỏ chuột khi hover */
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+    /* Màu nền nút khi hover */
+}
+
+.product-header {
+    display: flex;
+    /* Sử dụng flex để căn chỉnh các thành phần */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    padding: 20px;
+    /* Khoảng cách bên trong header */
+    background-color: #f8f9fa;
+    /* Màu nền của header */
+    border-bottom: 1px solid #e0e0e0;
+    /* Đường viền dưới của header */
+    gap: 10px;
+}
+
+.btn-sm {
+    gap: 10px;
+}
